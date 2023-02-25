@@ -25,4 +25,3 @@
   ```
   
   instruction based on this [post](https://forums.freebsd.org/threads/creating-a-windows-10-bootable-usb-stick-using-freebsd.77429/)
-  
