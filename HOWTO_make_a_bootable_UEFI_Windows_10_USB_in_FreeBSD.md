@@ -1,6 +1,8 @@
 - download latest 64-bit Windows 10 ISO into ~/Downloads directory (ex. Win10_20H2_English_x64.iso)
 - install necessary tools:
-  ```sudo pkg install 7-zip wimlib```
+  ```
+    sudo pkg install 7-zip wimlib
+  ```
  - create ```windows``` directory with extracted content of iso file:
   ```
     mkdir ~/windows
