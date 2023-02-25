@@ -1,13 +1,15 @@
 - download latest 64-bit Windows 10 ISO into ~/Downloads directory (ex. Win10_20H2_English_x64.iso)
 - install necessary tools:
   ```sudo pkg install 7-zip wimlib```
- - create ```window``` directory with extracted content of iso file
+ - create ```windows``` directory with extracted content of iso file:
   ```
     mkdir ~/windows
     cd ~/windows; 7z x ~/Downloads/Win10_20H2_English_x64.iso
   ```
-- after extraction, compress the size by running
-  ```cd sources; doas wimlib-imagex optimize install.wim --solid```
+- after extraction, compress the size by running:
+  ```
+    cd sources; doas wimlib-imagex optimize install.wim --solid
+  ```
 - prepare USB drive
   ```
     sudo gpart destroy -F da0
