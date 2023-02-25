@@ -4,10 +4,10 @@
     sudo pkg install 7-zip wimlib
   ```
  - create ```windows``` directory with extracted content of iso file:
-  ```
+   ```
     mkdir ~/windows
     cd ~/windows; 7z x ~/Downloads/Win10_20H2_English_x64.iso
-  ```
+   ```
 - after extraction, compress the size by running:
   ```
     cd sources; doas wimlib-imagex optimize install.wim --solid
