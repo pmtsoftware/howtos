@@ -2,7 +2,7 @@ Instal hplip:
 ```
 sudo pkg install hplip
 ```
-Run setup script
+Run setup script:
 ```
 sudo hp-setup
 ```
